@@ -1,0 +1,28 @@
+.workContent {
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.workContent h2 {
+  margin-bottom: 2rem;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  align-self: center;
+  background: transparent;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: var(--primary-light);
+  padding: 1rem 2rem;
+  font-size: 0.825rem;
+  font-weight: 600;
+  background-color: var(--primary);
+}
+
+.button:hover {
+  background: var(--primary-light);
+  color: var(--primary-dark);
+}

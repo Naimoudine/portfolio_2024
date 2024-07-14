@@ -1,0 +1,122 @@
+.footer {
+  z-index: -100;
+  position: fixed;
+  bottom: 0;
+  width: 100dvw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: var(--primary-dark);
+}
+
+.footerContent h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 500px) {
+  .footerContent h2 {
+    font-size: 6rem;
+  }
+}
+
+.footerContent p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 500px) {
+  .footerContent p {
+    font-size: 1.5rem;
+  }
+}
+
+.footer > div > div:last-of-type {
+  position: absolute;
+  left: 0;
+  padding: 0 2rem;
+  width: 100%;
+  bottom: 2rem;
+}
+
+@media screen and (min-width: 500px) {
+  .footer > div > div:last-of-type {
+    bottom: 4rem;
+  }
+}
+
+.footer > div > div:last-of-type a:first-of-type {
+  margin-left: 0;
+}
+
+.footer > div > div:last-of-type a {
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+.contact div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact div > p {
+  margin: 0;
+}
+
+.linkContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 500px) {
+  .linkContainer {
+    flex-direction: row;
+  }
+}
+
+.linkContainer > div {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 500px) {
+  .linkContainer > div {
+    gap: 2.5rem;
+    margin-bottom: 0;
+  }
+}
+
+.footer a {
+  color: var(--primary-dark);
+}
+
+.link {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.linkName {
+  height: fit-content;
+  overflow: hidden;
+  position: relative;
+  transition: 0.2s ease-in-out;
+}
+
+.linkName:nth-child(2) {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+}
+
+.linkName span {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+}

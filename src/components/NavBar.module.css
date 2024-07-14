@@ -1,0 +1,44 @@
+.nav {
+  position: fixed;
+  top: 2rem;
+  left: 50%;
+  padding: 1.5rem;
+  transform: translateX(-50%);
+  border-radius: 1.5rem;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.nav a {
+  margin-left: 1rem;
+  color: var(--primary-light);
+  text-decoration: none;
+  position: relative;
+}
+
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 110%;
+  height: 1px;
+  width: 0%;
+  background-color: var(--primary-light);
+  transition: ease-in 500ms;
+}
+
+.nav a:hover:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 110%;
+  height: 1px;
+  width: 100%;
+  background-color: var(--primary-light);
+  transition: ease-in 500ms;
+}
+
+.nav a:first-of-type {
+  margin-left: 0;
+}

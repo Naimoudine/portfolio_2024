@@ -1,0 +1,35 @@
+@import url("../App.css");
+
+.desc {
+  margin-bottom: 3rem;
+}
+
+.page h2 {
+  margin-bottom: 2rem;
+}
+
+.stack {
+  margin-bottom: 2rem;
+}
+
+.stack div {
+  display: flex;
+  gap: 2rem;
+}
+
+.stack > div > article {
+  width: 50%;
+}
+
+.stack ul {
+  list-style: none;
+}
+
+.stack li {
+  border-bottom: 1px solid var(--primary-light);
+  padding: 1rem 0;
+}
+
+.page a {
+  color: var(--primary-light);
+}

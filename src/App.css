@@ -1,0 +1,59 @@
+@import "./index.css";
+
+main {
+  width: 100dvw;
+  border-radius: 0 0 50px 50px;
+  background-color: var(--primary-dark);
+  color: var(--primary-light);
+  margin: 0 0 80vh 0;
+  padding-bottom: 5rem;
+}
+
+@media screen and (min-width: 400px) {
+  main {
+    margin: 0 0 80vh 0;
+    padding-bottom: 10rem;
+  }
+}
+
+button,
+.button {
+  background: transparent;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  color: var(--primary-light);
+  font-size: 0.825rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+button:hover,
+.button:hover {
+  background: var(--primary-light);
+  color: var(--primary-dark);
+}
+
+.wrapper {
+  padding: 0 2rem;
+}
+main > .wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.page {
+  padding-top: 10rem;
+}
+
+.page > h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+  .page > h1 {
+    font-size: 3rem;
+    margin-bottom: 3.5rem;
+  }
+}

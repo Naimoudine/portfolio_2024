@@ -1,0 +1,49 @@
+@import url("../App.css");
+
+.banner {
+  width: 100%;
+  height: 500px;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .banner {
+    width: 100%;
+    height: 250px;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.tagsContainer {
+  display: flex;
+  gap: 2rem;
+}
+
+.tag {
+  font-size: 0.825rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--primary-light);
+  border-radius: 2rem;
+  backdrop-filter: blur(10px);
+  color: var(--primary-light);
+  margin-bottom: 2rem;
+}
+
+.descContainer {
+  margin-bottom: 2rem;
+}
+
+.descContainer h4 {
+  margin-bottom: 1rem;
+}
+
+.ctaContainer {
+  display: flex;
+  gap: 2rem;
+}
+
+.ctaContainer a {
+  color: var(--primary-light);
+}

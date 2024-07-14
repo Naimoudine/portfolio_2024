@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --primary-dark: #111111;
+  --primary-light: #fffaf1;
+  --primary: #8583f7;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+button,
+.button {
+  background: var(--primary);
+  color: var(--primary-light);
+  padding: 1rem 2rem;
+}
