@@ -8,7 +8,7 @@ export const data = [
         description:
           "This is a simple todo list app built with vuejs to test my current knowledge.",
         tags: ["dev", "personal project"],
-        img: "/public/assets/images/projects/todo-screen.png",
+        img: "/src/assets/images/projects/todo-screen.png",
         video: "",
         stack: ["Vuejs", "Tailwind"],
         links: [
