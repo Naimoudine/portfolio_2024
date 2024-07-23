@@ -8,7 +8,7 @@ export const data = [
         description:
           "This is a simple todo list app built with vuejs to test my current knowledge.",
         tags: ["dev", "personal project"],
-        img: "/src/assets/images/projects/todo-screen.png",
+        img: "./assets/images/projects/todo-screen.png",
         video: "",
         stack: ["Vuejs", "Tailwind"],
         links: [
@@ -26,7 +26,7 @@ export const data = [
         description:
           "This project is a Harry Potter quiz made for fan to test their knowledge. It was make with HTML/CSS & Javascript during a web developper training as a group project.",
         tags: ["dev", "group project"],
-        img: "/public/assets/images/projects/harry-screen.png",
+        img: "./assets/images/projects/harry-screen.png",
         video: "",
         stack: ["HTML", "CSS", "Javascript"],
         links: [
@@ -62,7 +62,7 @@ export const data = [
         description:
           "This is a solution to the ip address tracker challenge. I built it with Vuejs and as recommended with leaftletjs library for the map and IP Geolocation API to get ip details.",
         tags: ["dev", "personal project"],
-        img: "/public/assets/images/projects/ip-tracker-screen.png",
+        img: "./assets/images/projects/ip-tracker-screen.png",
         video: "",
         stack: ["HTML", "CSS", "Javascript"],
         links: [
