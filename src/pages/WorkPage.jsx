@@ -1,8 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import styles from "./WorkPage.module.css";
-import { useState } from "react";
-import { data } from "../db";
 
 function WorkPage() {
   const { state } = useLocation();
