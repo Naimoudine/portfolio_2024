@@ -1,9 +1,13 @@
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import styles from "./WorkPage.module.css";
+import { useState } from "react";
+import { data } from "../db";
 
 function WorkPage() {
   const { state } = useLocation();
+
+  console.log(state);
 
   return (
     <>
@@ -16,8 +20,10 @@ function WorkPage() {
         </motion.h1>
         <div
           className={styles.banner}
-          style={{ background: `url('${state?.data.img}') center/cover` }}
-        ></div>
+          style={{
+            background: `url('${state.data.img}') center/cover`,
+          }}
+        />
         <div className={styles.tagsContainer}>
           {state?.data.stack.map((techno, i) => (
             <span className={styles.tag} key={i}>
